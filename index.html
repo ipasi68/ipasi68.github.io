@@ -1,55 +1,41 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Linktree di ipthai68</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f7f7f7;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      margin: 0;
-      padding: 20px;
-    }
-    h1 {
-      color: #333;
-      margin-bottom: 20px;
-    }
-    .links {
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-      width: 100%;
-      max-width: 400px;
-    }
-    .link-button {
-      display: block;
-      padding: 15px 20px;
-      text-align: center;
-      text-decoration: none;
-      background: #0077cc;
-      color: white;
-      font-weight: bold;
-      border-radius: 8px;
-      transition: background 0.3s ease;
-    }
-    .link-button:hover {
-      background: #005fa3;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ipthai68 | Links</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Il mio Linktree</h1>
-  <div class="links">
-    <a class="link-button" href="https://instagram.com/tuoaccount" target="_blank">Instagram</a>
-    <a class="link-button" href="https://facebook.com/tuopagina" target="_blank">Facebook</a>
-    <a class="link-button" href="https://tuosito.com" target="_blank">Il mio sito</a>
-    <a class="link-button" href="https://youtube.com/tuocanale" target="_blank">YouTube</a>
-  </div>
+    <div class="container">
+        <img src="profile.png" alt="Profile picture" class="profile-pic">
+        <h1 class="username">@ipthai68</h1>
+        <div class="socials">
+            <a href="https://instagram.com/ipthai68" target="_blank" class="social-link" aria-label="Instagram">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="12" cy="12" r="10" fill="#fff"/>
+                    <path d="M16.98 8.5C16.98 7.12 15.88 6 14.5 6H9.5C8.12 6 7 7.12 7 8.5V15.5C7 16.88 8.12 18 9.5 18H14.5C15.88 18 16.98 16.88 16.98 15.5V8.5ZM12 15.5C10.07 15.5 8.5 13.93 8.5 12C8.5 10.07 10.07 8.5 12 8.5C13.93 8.5 15.5 10.07 15.5 12C15.5 13.93 13.93 15.5 12 15.5ZM16.25 9.25C16.66 9.25 17 8.91 17 8.5C17 8.09 16.66 7.75 16.25 7.75C15.84 7.75 15.5 8.09 15.5 8.5C15.5 8.91 15.84 9.25 16.25 9.25Z" fill="#E1306C"/>
+                    <circle cx="12" cy="12" r="2.5" fill="#E1306C"/>
+                </svg>
+            </a>
+        </div>
+        <div class="links">
+            <a href="https://pubmed.ncbi.nlm.nih.gov/28978542/" class="link-item" target="_blank">
+                <span class="link-thumb" aria-hidden="true">🥚</span>
+                <span class="link-text">Eggs Studies</span>
+            </a>
+            <a href="https://vt.tiktok.com/ZSkrrPpsD/" class="link-item" target="_blank">
+                <span class="link-thumb" aria-hidden="true">🍳</span>
+                <span class="link-text">Glammet Pan</span>
+            </a>
+            <a href="https://vt.tiktok.com/ipthai68" class="link-item" target="_blank">
+                <span class="link-thumb" aria-hidden="true"><img src="tiktok.jpeg" alt="TikTok logo" style="width:32px;height:32px;border-radius:6px;object-fit:cover;"></span>
+                <span class="link-text">My TikTok</span>
+            </a>
+        </div>
+    </div>
 </body>
 </html>
