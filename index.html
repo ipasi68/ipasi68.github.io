@@ -11,8 +11,24 @@
 </head>
 <body>
     <div class="container">
+        <!-- Language Selector -->
+        <div class="language-selector">
+            <div class="language-option" data-lang="en" data-active="true">
+                <span class="flag">🇺🇸</span>
+                <span class="lang-name">English</span>
+            </div>
+            <div class="language-option" data-lang="it">
+                <span class="flag">🇮🇹</span>
+                <span class="lang-name">Italiano</span>
+            </div>
+            <div class="language-option" data-lang="th">
+                <span class="flag">🇹🇭</span>
+                <span class="lang-name">ไทย</span>
+            </div>
+        </div>
+        
         <img src="profile.png" alt="Profile picture" class="profile-pic">
-        <h1 class="username">@ipthai68</h1>
+        <h1 class="username" data-translate="username">@ipthai68</h1>
         <div class="socials">
             <a href="https://instagram.com/ipthai68" target="_blank" class="social-link" aria-label="Instagram">
                 <img src="IG.webp" alt="Instagram logo" style="width:32px;height:32px;border-radius:6px;object-fit:cover;vertical-align:middle;">
@@ -21,19 +37,23 @@
         <div class="links">
             <a href="https://youtube.com/@ivan68" class="link-item" target="_blank">
                 <span class="link-thumb" aria-hidden="true"><img src="yt.jpeg" alt="YouTube logo" style="width:32px;height:32px;border-radius:6px;object-fit:cover;"></span>
-                <span class="link-text">My YouTube</span>
+                <span class="link-text" data-translate="youtube">My YouTube</span>
             </a>
             <a href="https://vt.tiktok.com/ipthai68" class="link-item" target="_blank">
                 <span class="link-thumb" aria-hidden="true"><img src="tiktok.jpeg" alt="TikTok logo" style="width:32px;height:32px;border-radius:6px;object-fit:cover;"></span>
-                <span class="link-text">My TikTok</span>
+                <span class="link-text" data-translate="tiktok">My TikTok</span>
             </a>
             <a href="https://vt.tiktok.com/ZSkrrPpsD/" class="link-item" target="_blank">
                 <span class="link-thumb" aria-hidden="true"><img src="glammet.jpeg" alt="Pan logo" style="width:32px;height:32px;border-radius:6px;object-fit:cover;"></span>
-                <span class="link-text">Glammet Pan</span>
+                <span class="link-text" data-translate="glammet">Glammet Pan</span>
             </a>
             <a href="studies.html" class="link-item" target="_blank">
                 <span class="link-thumb" aria-hidden="true">📚</span>
-                <span class="link-text">All Studies</span>
+                <span class="link-text" data-translate="studies">All Studies</span>
+            </a>
+            <a href="buymeacoffee.html" class="link-item" target="_blank">
+                <span class="link-thumb" aria-hidden="true">☕</span>
+                <span class="link-text" data-translate="buy-coffee">Buy Me a Coffee</span>
             </a>
         </div>
     </div>
@@ -41,4 +61,5 @@
 <footer class="footer">
     © 2025 ipthai68. All rights reserved.
 </footer>
+<script src="translations.js"></script>
 </html>
