@@ -313,14 +313,9 @@ body {
 
 /* Payment button stile coerente con selettore lingua */
 .payment-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    margin-top: 12px;
-    padding: 10px 18px;
-    width: 100%;
-    max-width: 320px;
+    display: block;
+    margin: 16px auto 0 auto;
+    padding: 10px 24px;
     background: #f5f5f5;
     color: #222;
     font-size: 1.1rem;
@@ -332,6 +327,9 @@ body {
     text-decoration: none;
     transition: background 0.2s, color 0.2s, border 0.2s;
     cursor: pointer;
+    width: auto;
+    min-width: 120px;
+    max-width: 90%;
 }
 
 .payment-button:hover, .payment-button:focus {
