@@ -73,8 +73,12 @@
   <div class="qr-container">
     <img src="pp.webp" alt="PromptPay QR" class="qr-img" id="qrImg" />
     <div class="btns">
-      <button class="btn" onclick="downloadQR()" title="Download QR"><i class="fa-solid fa-download"></i></button>
-      <button class="btn" onclick="shareQR()" title="Share QR"><i class="fa-solid fa-share-from-square"></i></button>
+      <a class="payment-button icon-only" href="#" onclick="downloadQR(); return false;" title="Download QR">
+        <i class="fa-solid fa-download"></i>
+      </a>
+      <a class="payment-button icon-only" href="#" onclick="shareQR(); return false;" title="Share QR">
+        <i class="fa-solid fa-share-from-square"></i>
+      </a>
     </div>
   </div>
   <script>

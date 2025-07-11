@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Thank You – Buy Me a Coffee</title>
-  <link rel="stylesheet" href="buymeacoffee.css">
+  <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
@@ -53,30 +53,30 @@
       <div class="payment-section">
         <div class="payment-methods">
           <!-- Thai Local Payment Methods -->
+          <!-- PromptPay -->
           <div class="payment-method preferred thai-local">
-            <img src="pplogo.png" alt="PromptPay Logo" class="logo-img" />
-            <div class="method-info">
-              <h3 data-translate="promptpay-title">PromptPay QR</h3>
-              <p data-translate="promptpay-desc">Scan QR code with Alipay, WeChat, KakaoPay, or any Thai bank app</p>
-              <span class="preferred-badge" data-translate="thai-preferred">สำหรับคนไทย</span>
-            </div>
-            <a href="promptpay.html" target="_blank" class="payment-button preferred">
-              <i class="fas fa-qrcode"></i>
-              <span data-translate="scan-qr">Scan QR Code</span>
-            </a>
+              <div class="method-info">
+                  <div class="payment-desc">
+                      <img src="pplogo.png" alt="PromptPay Logo" class="logo-img" />
+                      <span data-translate="promptpay-desc">Scan QR code with Alipay, WeChat, KakaoPay, or any Thai bank app</span>
+                  </div>
+              </div>
+              <a href="promptpay.html" target="_blank" class="payment-button">
+                  Scan QR Code
+              </a>
           </div>
 
+          <!-- TrueMoney -->
           <div class="payment-method preferred thai-local">
-            <img src="tmlogo.png" alt="TrueMoney Logo" class="logo-img" />
-            <div class="method-info">
-              <h3 data-translate="truemoney-title">True Money</h3>
-              <p data-translate="truemoney-desc">Popular e-wallet in Thailand</p>
-              <span class="preferred-badge" data-translate="truemoney-preferred">Per chi usa TrueMoney Wallet o promptpay THAI</span>
-            </div>
-            <a href="truemoney.html" target="_blank" class="payment-button preferred">
-              <i class="fas fa-wallet"></i>
-              <span data-translate="scan-qr">Scan QR Code</span>
-            </a>
+              <div class="method-info">
+                  <div class="payment-desc">
+                      <img src="tmlogo.png" alt="TrueMoney Logo" class="logo-img" />
+                      <span data-translate="truemoney-desc">Popular e-wallet in Thailand</span>
+                  </div>
+              </div>
+              <a href="truemoney.html" target="_blank" class="payment-button">
+                  Scan QR Code
+              </a>
           </div>
 
         
