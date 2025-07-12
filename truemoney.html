@@ -63,6 +63,19 @@
       background: #4a3fd0;
       transform: translateY(0);
     }
+    .qr-link {
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .qr-instructions {
+      margin-top: 16px;
+      text-align: center;
+      color: #666;
+      font-size: 0.9rem;
+    }
     @media (max-width: 480px) {
       .qr-img { width: 90vw; height: 90vw; max-width: 320px; max-height: 320px; }
       .qr-container { padding: 16px 4vw 16px 4vw; }
@@ -71,15 +84,14 @@
 </head>
 <body>
   <div class="qr-container">
-    <img src="tm.png" alt="True Money QR" class="qr-img" id="qrImg" />
-    <div class="btns">
-      <a class="payment-button" href="tm.png" target="_blank" title="Download QR">
-        Download QR
-      </a>
-      <a class="payment-button" href="https://wa.me/?text=TrueMoney%20QR%20Code%20-%20Scan%20with%20TrueMoney%20app" target="_blank" title="Share via WhatsApp">
-        Share via WhatsApp
-      </a>
-    </div>
+    <a href="tm.png" target="_blank" class="qr-link">
+      <img src="tm.png" alt="True Money QR" class="qr-img" id="qrImg" />
+      <div class="qr-instructions">
+        <p class="instruction-en">Click to enlarge and take a screenshot</p>
+        <p class="instruction-it">Clicca per allargare e scatta uno screenshot</p>
+        <p class="instruction-th">คลิกเพื่อขยายและถ่ายภาพหน้าจอ</p>
+      </div>
+    </a>
   </div>
   <script>
     function downloadQR() {
