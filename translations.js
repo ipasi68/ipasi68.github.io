@@ -4,7 +4,6 @@ const translations = {
     username: "@ipthai68",
     youtube: "My YouTube",
     tiktok: "My TikTok",
-    glammet: "Glammet Pan",
     merchandise: "Merchandize",
     studies: "All Studies",
     "buy-coffee": "Buy Me a Coffee"
@@ -13,7 +12,6 @@ const translations = {
     username: "@ipthai68",
     youtube: "Il Mio YouTube",
     tiktok: "Il Mio TikTok",
-    glammet: "Glammet Pan",
     merchandise: "Articoli",
     studies: "Tutti gli Studi",
     "buy-coffee": "Offrimi un Caffè"
@@ -22,7 +20,6 @@ const translations = {
     username: "@ipthai68",
     youtube: "YouTube ของฉัน",
     tiktok: "TikTok ของฉัน",
-    glammet: "Glammet Pan",
     merchandise: "สินค้า",
     studies: "การศึกษาทั้งหมด",
     "buy-coffee": "ซื้อกาแฟให้ฉัน"
